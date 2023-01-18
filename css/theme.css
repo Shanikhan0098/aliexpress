@@ -44,7 +44,7 @@
 }
 
 .side-box {
-    background-color: rgb(254, 0, 0);
+    background-color: rgb(224, 224, 224);
     height: 90px;
     width: 90px;
     position: relative;
@@ -111,6 +111,7 @@ color: sandybrown;}
 }
 
 .footer .cards {
+    
     position: relative;
 }
 
@@ -147,13 +148,50 @@ color: sandybrown;}
 .link a {
     text-decoration: none;
 }
+.toggle a{text-decoration: none;
+    color: white;
+}
+.toggle  {margin-top: 10px;
+background-color:rebeccapurple;
+width: 150px;
+margin-left: 2px;
+border-radius: 5px;
+padding: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.toggle-list{background-color: rgb(117, 117, 37);
+width: 150px;
+margin-left: 2px;
+display: none;
+}
+.toggle-list ul{padding-left: 0;}
+.toggle-list li:hover{background-color: rgb(139, 165, 210);}
+.toggle p{margin-bottom: 0;}
+.toggle-list li{list-style: none;
+text-align: center;
+}
+
+.toggle-list li a{text-decoration: none;
+color: black;}
+
+.inner-footer{display: none;
+margin-left: 10%;}
+
+.left-side-bar {
+    width: 20px;
+    height: 3px;
+    position: relative;
+    
+    background-color: black;
+    margin: 2px 0;
+  }
 
 /* generic classes */
 .bgc-clr {
     background-color: #efeffb
 }
-
-
 @media (max-width: 773.98px) {
     .express {
         padding-top: 0;
